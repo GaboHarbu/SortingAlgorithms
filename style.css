@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F3DEBA;
+	font-family: Futura, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	height: 100vh;
+	width: 100%;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+	height: 100%;
+	background-color: #A9907E;
+	transition: all 0.5s ease-in-out;
+}
+
+.column:nth-child(odd) {
+	background-color: #ABC4AA;
+}
+
+.column:hover {
+	cursor: pointer;
+	transform: translateY(-10px);
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.bubble-sort {
+	height: 12%;
+}
+
+.selection-sort {
+	height: 22%;
+}
+
+.insertion-sort {
+	height: 32%;
+}
+
+.merge-sort {
+	height: 42%;
+}
+
+.quick-sort {
+	height: 52%;
+}
+
+.heap-sort {
+	height: 62%;
+}
+
+.counting-sort {
+	height: 72%;
+}
+
+.radix-sort {
+	height: 82%;
+}
+
+.bucket-sort {
+	height: 92%;
+}
+
+.sorting-text {
+	position: absolute;
+	bottom: 90px;
+	left: 20px;
+	padding: 10px;
+	color: white;
+	font-size: 105px;
+  }
+
+  .column h2 {
+	font-size: 28px;
+	color: white;
+  }
+  
+a {
+	text-decoration: none; /* Elimina el subrayado */
+	color: inherit; /* Hereda el color del texto del elemento padre */
+}
+  
